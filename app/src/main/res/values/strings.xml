@@ -1,0 +1,20 @@
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Floating Boat</string>
+    <string name="win">Congratulations! You survive!!</string>
+    <string name="lose">Sorry you lose!Practice makes perfect!</string>
+    <string name="life">Life</string>
+    <string name="results_format">$s</string>
+    <string name="reset_game">Play Again!</string>
+    <string name="welcomeText">Welcome to the Floating Boat!</string>
+    <string name="howtoplay">You are given 3 pies(lifes) at the beginning.
+        Eat apples in order to make pies!
+        Make 10 pies as fast as you can!
+        Remember: avoid touching the devils otherwise you will lose pies and die!</string>
+
+    <string name="title_activity_profile_detail">Profile Detail</string>
+    <string name="title_activity_score">Score</string>
+    <string name="title_activity_profile">Profiles</string>
+    <string name="title_activity_how_to_play">How To Play</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue_lines_sea_water">
+
+    <TextView
+        android:id="@+id/text_howToPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="How to play:"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/text_Guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/howtoplay"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:id="@+id/but_return"
+        android:layout_gravity="center_horizontal"
+        android:onClick="return_onClick" />
+
+</LinearLayout>
